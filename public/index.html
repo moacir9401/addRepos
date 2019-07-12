@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <style>
+        input[type="text"]{
+            width:30%;
+            height:30px;
+           font-size:16px;
+           font-family: sans-serif;
+           color:rgba(0,0,0,.5);
+           border:solid 1px rgba(0,0,0,.3);
+           border-radius: 5%;
+        }
+        button{
+            padding: 10px;
+            background-color: slategrey;
+            font-weight: bold;
+            color:#fff;
+            border:none;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        li {
+            
+            clear: both;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 80px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        strong {
+            font-size: 20px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+        img#load{
+            text-align:center;
+            position: absolute;
+        }
+    </style>
+
+<body>
+    <form id="repo-form">
+        <input type="text" name="repository" />
+        <button type="submit">Adicionar</button>
+    </form>
+    <ul id="repo-list">
+     
+    </ul>
+
+
+    <script src='./bundle.js'></script>
+    </head>
+</body>
+
+</html>
